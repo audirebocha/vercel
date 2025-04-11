@@ -18,7 +18,7 @@ import data_manager from './apis/data.js'
 const app = express()
 app.use(bodyParser.json())
 app.use(cors({
-    origin: ['http://localhost:5173', "https://vercel-test-beta-ten-71.vercel.app"],
+    origin: ['http://localhost:5173', "https://pedigree-familytree.web.app"],
     methods: ['POST', 'PUT', 'GET', 'OPTIONS', 'HEAD'],
     credentials: true
 }));
